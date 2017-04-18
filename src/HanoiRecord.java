@@ -26,12 +26,12 @@ public class HanoiRecord extends ActivationRecord {
 		/*
 		(2, X, Y, Z)
 		(1, X, Z, Y)    X --> Z
-		X --> Y
+		(1, X, Y, Z)    X --> Y
 		(1, Z, Y, X)    Z --> Y
 
 		(3, X, Y, Z)
 		(2, X, Z, Y)    X --> Y, X --> Z, Y --> Z
-		X --> Y
+		(1, X, Y, Z)    X --> Y
 		(2, Z, Y, X)    Z --> X, Z --> Y, X --> Y
 		 */
 	}
